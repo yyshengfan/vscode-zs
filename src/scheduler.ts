@@ -10,6 +10,6 @@ export class Scheduler {
     public start() {
         setInterval(() => {
             ReminderView.show(this.context);
-        }, 1000 * 10 * Utility.getConfiguration().get<number>('reminderViewIntervalInMinutes', 10));
+        }, 1000 * 60 * Utility.getConfiguration().get<number>('reminderViewIntervalInMinutes', 60));
     }
 }
