@@ -2,7 +2,7 @@
     "name": "zs",
     "displayName": "郑爽鼓励师",
     "description": "写代码不再孤单，有郑爽与你同在",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "yyshengfan",
     "icon": "zslogo.png",
     "engines": {
